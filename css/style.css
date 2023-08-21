@@ -742,7 +742,7 @@ body {
 }
 
 .modal-form-input:hover,
-.modal-form-coment:focus {
+.modal-form-input:focus {
   border-color: var(--iris);
 }
 
@@ -805,15 +805,16 @@ body {
 }
 
 .modal-form-checkbox {
+  display: block;
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--lightslate);
 }
 
 .privacy-policy:checked + .modal-form-checkbox > .agrement-checkbox {
-  background-color: var(--ocean);
+  background-color: var(--iris);
   border: none;
   fill: var(--cloud);
 }
