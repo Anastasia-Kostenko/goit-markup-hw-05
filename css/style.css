@@ -678,7 +678,7 @@ body {
 }
 
 .modal-close-btn:hover,
-.modal-close-btn:hover {
+.modal-close-btn:focus {
   background-color: var(--ocean);
   border: none;
 }
@@ -814,7 +814,7 @@ body {
 }
 
 .privacy-policy:checked + .modal-form-checkbox > .agrement-checkbox {
-  background-color: var(--iris);
+  background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
 }
