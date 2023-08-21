@@ -580,13 +580,14 @@ body {
   letter-spacing: 0.04em;
   outline: transparent;
   background-color: transparent;
-  color: var(--white, #fff);
-  border: 1px solid var(--white, #fff);
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .footer-form-input::placeholder {
-  color: var(--white, #fff);
+  color: var(--white);
 }
 
 .footer-btn {
@@ -595,8 +596,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
-  background-color: var(--iris, #4d5ae5);
-  color: var(--white, #fff);
+  background-color: var(--iris);
+  color: var(--white);
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
